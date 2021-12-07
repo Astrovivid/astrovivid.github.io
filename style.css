@@ -60,13 +60,14 @@ h3
     color:#01fe87;
     width: 95%;
     line-height: 16.9em;
-    outline: none;
+    outline: #51f55c;
     animation: animate 6s linear infinite
     
 }
 
 .highlight-word-color{
     color: #fa3737;
+    outline: #ff2f21;
     animation: animate 5s linear infinite
 }
 h1
