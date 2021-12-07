@@ -4,8 +4,8 @@ body
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 90%;
     font-family: 'Spartan', sans-serif;
+    font-size: 90%;
 }
 body
 {
@@ -51,13 +51,16 @@ h2
 h3
 {
     position:absolute;
+    top: 0
+    left: 2;
+    
 
-    font-size: 5em;
+    font-size: 8em;
     font-family: 'Play', sans-serif;
     letter-spacing: 30px;
     color:#01fe87;
     width: 95%;
-    line-height: 1.200em;
+    line-height: 1.300em;
     outline: none;
     animation: animate 6s linear infinite
     
@@ -67,6 +70,7 @@ h3
     color: #fa3737;
     animation: animate 5s linear infinite
 }
+
 header
 {
     position: absolute;
