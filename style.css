@@ -4,7 +4,6 @@ body
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Genos', sans-serif;
     font-size: 90%;
 }
 body
@@ -20,6 +19,7 @@ h2
 {
     position: relative;
     font-size: 5em;
+    font-family: 'Genos', sans-serif;
     letter-spacing: 1.5px;
     color:antiquewhite;
     width: 95%;
