@@ -19,15 +19,14 @@ body
 h2
 {
     position: relative;
-    font-size: 3.5em;
-    font-family: 
+    font-size: 5em;
     letter-spacing: 1.5px;
     color:antiquewhite;
     width: 95%;
     text-align:left;
     
     ;
-    line-height: 0.500em;
+    line-height: 1.500em;
     outline: none;
     animation: animate 5s linear infinite
 }
