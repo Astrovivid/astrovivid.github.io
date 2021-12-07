@@ -67,4 +67,41 @@ h3
     color: #fa3737;
     animation: animate 5s linear infinite
 }
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: :right;
+    
 
+
+}
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    list-style:circle;
+    margin-right: 20px
+}
+header ul li a
+{
+    text-decoration: : none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+
+}
+header ul li a:hover
+{
+    background: #fff;
+    color: #2b1055;
+}
