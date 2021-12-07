@@ -19,14 +19,15 @@ body
 h2
 {
     position: relative;
-    font-size: 5em;
-    letter-spacing: 1.5px;
+    font-family: 'Play', sans-serif;
+    font-size: 9em;
+    letter-spacing: 1.00px;
     color:antiquewhite;
-    width: 95%;
+    width: 97%;
     text-align:left;
     
     ;
-    line-height: 1.500em;
+    line-height: 1.090em;
     outline: none;
     animation: animate 5s linear infinite
 }
@@ -52,15 +53,13 @@ h3
 {
     position:absolute;
     top: 0
-    left: 2;
-    
-
-    font-size: 8em;
+    left: 5;
+    font-size: 4em;
     font-family: 'Play', sans-serif;
-    letter-spacing: 30px;
+    letter-spacing: 5px;
     color:#01fe87;
     width: 95%;
-    line-height: 1.300em;
+    line-height: 16.9em;
     outline: none;
     animation: animate 6s linear infinite
     
@@ -69,6 +68,19 @@ h3
 .highlight-word-color{
     color: #fa3737;
     animation: animate 5s linear infinite
+}
+h1
+{
+    position:absolute;
+    text-align: left;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    color: #fff;
+    width: 95%;
+    line-height: 60em;
+    outline: none;
+    
+    
 }
 
 
@@ -107,6 +119,6 @@ header ul li a
 }
 header ul li a:hover
 {
-    background: #fff;
-    color: #2b1055;
+    background: #01fe87;
+    color: #fff;
 }
