@@ -1,0 +1,75 @@
+body{
+    background-image: url(New\ York\ skyline_Night\ -\ Visual\ Novel\ Background\ by\ giaonp\ on\ DeviantArt.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.social-menu ul {
+    position: absolute;
+    top:50%;
+    left:50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50px);
+    display: flex;
+}
+.social-menu uli li {
+    list-style: none:
+    margin: 0 15px;
+}
+.social-menu ul li .fa {
+    font-size: 50px;
+    line-height: 90px;
+    transition: .0.7s;
+    color: #000
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    background-color: #fff;
+    text-align: center;
+    transition: 0.7s;
+    box-shadow: 0 20px 15px rgba(0,0,0,.5);
+}
+.social-menu ul li a:hover {
+    transform: translate(0, -10px);
+
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #38cdf2
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #f2384d;
+    
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #2ab83f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #fff
+}
+.social-menu ul li:nth-child(6) a:hover {
+    background-color:  #053eff 
+}
+.social-menu ul li:nth-child(7) a:hover {
+    background-color: #f21823
+}    
+
+h1{
+
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    top: 30%;
+    left:50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50px);
+    display: flex;
+    
+}
