@@ -1,0 +1,131 @@
+body{
+    background-image: url(JJK.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+p
+ {
+   
+    border: solid 3px;
+    border-radius: 5px;
+    border-color: #2bd686;
+    
+    position: absolute;
+    
+    top: 49%;
+    left: 01%;
+    letter-spacing: 0.06em;
+    font-family: 'Nunito', sans-serif;
+    font-size: 21px;
+    color: #fff
+    
+}
+
+h1
+{
+    
+    position: absolute;
+    top: 12%;
+    left: 14.5%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    outline: none;
+    letter-spacing: 0.08em;
+    color: #21ed8b;
+    text-transform: uppercase;
+    animation: animate 1s ease-in-out infinite alternate;
+}
+
+@keyframes animate{
+    from{
+        text-shadow: 0 0 20px #fff;
+    }
+    to{
+        text-shadow: 0 0 30px #5ff072,
+                     0 0 20px #fff,
+                    0 0 40px #2bd686,
+                    0 0 80px #2bd686;
+
+    }
+}
+
+h2
+{
+    position: absolute;
+    top: 0.1%;
+    left: 2.5%;
+    font-family: 'Play', sans-serif;
+    font-size: 100px;
+    outline: none;
+    letter-spacing: 0.08em;
+    color: #fff;
+    text-transform: uppercase;
+    animation: animate 1s ease-in-out infinite alternate;
+
+}
+@keyframes animate{
+    from{
+        text-shadow: 0 0 20px #fff;
+    }
+    to{
+        text-shadow: 0 0 30px #5ff072,
+                     0 0 20px #fff,
+                    0 0 40px  #5ff072,
+                    0 0 80px #2bd686,
+                    0 0 160px #2bd686;
+
+
+
+    }
+}
+
+
+h3
+{
+    position: absolute;
+    top: 16%;
+    left: 14.5%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    outline: none;
+    letter-spacing: 0.08em;
+    color: #1fcf94;
+    text-transform: uppercase;
+    animation: animate 1s ease-in-out infinite alternate;
+
+}
+
+h4
+{
+    position: absolute;
+    top: 0.5%;
+    left: 5.9%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    color: #fff;
+
+}
+
+
+
+.highlight-word-color {
+
+    color: #dd4f24;
+
+}
+
+.highlight-word-color-2 {
+
+    color: #2446dd;
+
+}
+
+i 
+{
+    position:absolute;
+    top: 6.1%;
+    left: 3%;
+    color: #1fcf94;
+]
