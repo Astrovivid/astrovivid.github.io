@@ -52,17 +52,51 @@ h2
 h3
 {
     position:absolute;
-    top: 0
+    top: 78%;
     left: 5;
     font-size: 4em;
     font-family: 'Play', sans-serif;
     letter-spacing: 5px;
-    color:#01fe87;
+    color: transparent;
+    outline: #fff;
     width: 95%;
-    line-height: 16.9em;
-    outline: #51f55c;
-    animation: animate 6s linear infinite
     
+}
+h3::before
+{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    background: #01fe87;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: type 10s linear infinite;
+}
+@keyframes type
+{
+    0%
+    {
+        width: 0;
+    }
+    70%
+    {
+        width: 100%;
+    }
+    90%
+    {
+        width: 100%;
+    }
+    100%
+    {
+        width: 0;
+    }
+
 }
 
 .highlight-word-color{
