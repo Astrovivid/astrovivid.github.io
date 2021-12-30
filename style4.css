@@ -1,0 +1,55 @@
+body{
+    background-image: url(Art\ wallpaper\ -\ Wallpaper\ Sun.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial;
+}
+.card {
+    margin-top: 12%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 300px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+  }
+  
+  .container {
+    padding: 2px 16px;
+
+  }
+.card img {
+  font-size: small;
+
+
+
+}
+
+  h4{
+      text-align: center;
+      font-family: Arial;
+      font-size: 19px;
+      color: rgb(46, 31, 110);
+      border: solid 2px #fff;
+      background-color: #fff;
+      border-radius: 15px;
+    
+  }
+  h1{
+
+    position:absolute;
+    top: 1%;
+    left:40%;
+    font-size: 4em;
+    font-family: 'Play', sans-serif;
+    letter-spacing: 5px;
+    color: transparent;
+    -webkit-text-stroke:0.1vw #fff;
+    width: 95%;
+  }
