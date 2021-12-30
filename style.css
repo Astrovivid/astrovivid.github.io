@@ -1,33 +1,19 @@
 body
-
 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Spartan', sans-serif;
-    font-size: 90%;
-}
-body
-{
-    display: flex;
-    justify-content: center;
-    align-items: 50vh;
     background-image: url(Amaz.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    
+    
 }
 h2
 {
-    position: relative;
+    position: absolute;
     font-family: 'Play', sans-serif;
     font-size: 9em;
-    letter-spacing: 1.00px;
     color:antiquewhite;
-    width: 97%;
-    text-align:left;
-    
-    ;
-    line-height: 1.090em;
+    margin-top: 05%;
+    margin-left: 1%;
     outline: none;
     animation: animate 5s linear infinite
 }
@@ -52,13 +38,13 @@ h2
 h3
 {
     position:absolute;
-    top: 78%;
-    left: 5;
+    top: 80%;
+    left: 2%;
     font-size: 4em;
     font-family: 'Play', sans-serif;
     letter-spacing: 5px;
     color: transparent;
-    outline: #fff;
+    -webkit-text-stroke:0.1vw #01fe87;
     width: 95%;
     
 }
@@ -108,11 +94,13 @@ h1
 {
     position:absolute;
     text-align: left;
+    font-family: 'Spartan', sans-serif;
     font-size: 1.5em;
     letter-spacing: 3px;
     color: #fff;
     width: 95%;
-    line-height: 60em;
+    top: 105%;
+    left: 2%;
     outline: none;
     
     
@@ -122,6 +110,7 @@ h1
 header
 {
     position: absolute;
+    font-family: 'Spartan', sans-serif;
     top: 0;
     left: 0;
     width: 500%
