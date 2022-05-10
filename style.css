@@ -10,7 +10,7 @@ h2
 {
     position: absolute;
     font-family: 'Play', sans-serif;
-    font-size: 9em;
+    font-size: 10.5vw;
     color:antiquewhite;
     margin-top: 05%;
     margin-left: 1%;
@@ -40,7 +40,7 @@ h3
     position:absolute;
     top: 80%;
     left: 2%;
-    font-size: 4em;
+    font-size: 4.5vw;
     font-family: 'Play', sans-serif;
     letter-spacing: 5px;
     color: transparent;
@@ -95,7 +95,7 @@ h1
     position:absolute;
     text-align: left;
     font-family: 'Spartan', sans-serif;
-    font-size: 1.5em;
+    font-size: 2vw;
     letter-spacing: 3px;
     color: #fff;
     width: 95%;

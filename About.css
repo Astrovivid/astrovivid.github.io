@@ -11,14 +11,12 @@ p
     border: solid 3px;
     border-radius: 5px;
     border-color: #2bd686;
-    
     position: absolute;
-    
     top: 49%;
     left: 01%;
     letter-spacing: 0.06em;
     font-family: 'Nunito', sans-serif;
-    font-size: 21px;
+    font-size: 1.5vw;
     color: #fff
     
 }
@@ -30,7 +28,7 @@ h1
     top: 12%;
     left: 14.5%;
     font-family: 'Nunito', sans-serif;
-    font-size: 40px;
+    font-size: 2.8vw;
     outline: none;
     letter-spacing: 0.08em;
     color: #21ed8b;
@@ -57,7 +55,7 @@ h2
     top: 0.1%;
     left: 2.5%;
     font-family: 'Play', sans-serif;
-    font-size: 100px;
+    font-size: 7.4vw;
     outline: none;
     letter-spacing: 0.08em;
     color: #fff;
@@ -88,7 +86,7 @@ h3
     top: 16%;
     left: 14.5%;
     font-family: 'Nunito', sans-serif;
-    font-size: 40px;
+    font-size: 2.8vw;
     outline: none;
     letter-spacing: 0.08em;
     color: #1fcf94;
@@ -103,7 +101,7 @@ h4
     top: 0.5%;
     left: 5.9%;
     font-family: 'Nunito', sans-serif;
-    font-size: 26px;
+    font-size: 1.8vw;
     color: #fff;
 
 }
